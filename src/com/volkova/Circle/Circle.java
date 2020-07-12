@@ -14,4 +14,3 @@ public class Circle {
         return (double) (Math.PI * radius * radius);
         }
     }
-
