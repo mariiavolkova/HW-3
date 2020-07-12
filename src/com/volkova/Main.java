@@ -11,12 +11,12 @@ public class Main {
         System.out.println(circle.getArea());
 
         Counter myCounter = new Counter();
+        Counter myCounter2 = new Counter();
         System.out.println("Amount of objects : " + myCounter.getCount());
 
         Car redCar = new Car();
         redCar.startEngine();
         redCar.stopEngine();
-        redCar.move();
-        redCar.keepingSpeed();
+        redCar.keepMoving();
     }
 }
