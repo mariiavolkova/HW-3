@@ -1,6 +1,6 @@
 package com.volkova.Car;
 
-public class Car<maxSpeed, minSpeed, stopSpeed, nowSpeed> {
+public class Car{
 
     public int maxSpeed = 200;
     public int minSpeed = 1;
